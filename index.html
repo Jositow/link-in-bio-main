@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Link-in-Bio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/js/all.min.js"></script>
+  <style>
+   
+
+    html{
+      min-height:100%;
+    }
+
+    body{
+      min-height: 100%;
+      padding-top: 40px;
+      padding-bottom: 40px;
+      background: linear-gradient(90deg, #000a0e, #000e16, #00101d, #001223, #00132a, #071330, #101236, #1b1039);
+      color: rgba(255, 255, 255, 1.0);
+      font-family: "Quicksand";
+      font-size: 20px;
+      font-weight: 400;
+    }
+  
+    a{
+      color:rgba(255, 255, 255, 1.0);
+      text-decoration: none;
+    }
+
+    .container{
+      max-width: 640px;
+      margin: auto;
+    }
+
+    .image-container {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .name-row{
+      text-align: center;
+      margin-bottom: 30px;
+      font-family: "Montserrat";
+      font-weight: 500;
+      font-size: 28px;
+    }
+
+    .social-icons{
+      margin-bottom:30px;
+      display: flex;
+      justify-content: space-around;
+    }
+  
+    .image-profile {
+      width: 128px;
+      height: 128px;
+      object-fit:cover;
+      border-radius: 55px;
+    }
+  
+    .images-links {
+      width: 48px;
+      height: 48px;
+      object-fit: cover;
+      border-radius: 48px;
+    }
+
+    .item{
+      background-color: rgba(27, 64, 93, 0.8);
+      margin-bottom: 20px;
+      display: flex;
+      align-items: center;
+      border-radius: 900px;
+      padding: 9px;
+      padding-right: 53px;
+      box-shadow: 2px 2px 6px 0px rgba(122,32,122,0.5);
+    }
+
+    .link-text{
+      text-align: center;
+      flex-grow:1;
+    }
+
+  </style>
+
+</head>
+
+<body>
+  
+  <div class="container">
+    <div class="image-container">
+      <img class="image-profile" src="images/cactus.jpg" alt="a cactus">
+    </div>
+    <div class="name-row">
+      Jose Aguirre
+    </div>
+    <div class="social-icons">
+      <a href="https://github.com/jositow" target="_blank"><i class="fa-brands fa-github"></i> Github</a>
+      <a href="https://www.instagram.com/chepul7/" target="_blank"><i class="fa-brands fa-instagram"></i> Instagram</a>
+      <a href="https://www.linkedin.com/in/jositow/" target="_blank"><i class="fa-brands fa-linkedin"></i> Linkedin</a>
+    </div>
+
+    <div class="links">
+      <div class="item">
+        <img class="images-links" src="images/htmlcss.jpg" alt="coding">
+        <a class="link-text" href="https://learn.shayhowe.com/html-css/" target="_blank">Learn to code HTML & CSS</a>
+      </div>
+
+      <div class="item">
+        <img class="images-links" src="images/cssgame.png" alt="css game">
+        <a class="link-text" href="http://www.flexboxdefense.com/" target="_blank">CSS game</a>
+      </div>
+
+      <div class="item">
+        <img class="images-links" src="images/maya.jpg" alt="">
+        <a class="link-text" href="https://www.nationalgeographic.com/history/article/who-were-the-maya" target="_blank">Mayan history</a>
+      </div>
+
+      <div class="item">
+        <img class="images-links" src="images/uk.jpg" alt="">
+        <a class="link-text" href="https://www.ukrainiancourse.com/" target="_blank">Learn Ukranian</a>
+      </div>
+    </div>
+  </div>
+
+
+</body>
+
+</html>
